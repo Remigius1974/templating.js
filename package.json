@@ -1,0 +1,21 @@
+{
+	"name": "templating",
+	"description": "Asynchronous templating engine for node js",
+	"version": "1.0.0",
+	"author": "Remigius Kijok",
+	"homepage": "https://github.com/Remigius1974/templating.js",
+	"bugs": "https://github.com/Remigius1974/templating.js/issues",
+	"keywords": [ "template", "underscore", "asynchronous" ],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/Remigius1974/templating.js.git"
+	},
+	"license": "MIT",
+	"scripts": {
+	  "test": "node tests/basic-test.js"
+	},
+	"engines": {
+		"node": ">=0.10.0"
+	},
+	"main": "./lib/templating"
+}
