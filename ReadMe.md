@@ -40,9 +40,8 @@ You may notice that the function also returns a templateHTML code as a result. I
 ##Template code
 Template code works like undersore templates with one small difference: **print** function is now a member of the templating instance! So it is important to pass the templating instance as a paramater to use it.
 
-| Code | Output |
-|<%= data.variable %> | Prints the variable content|
-|<% data.templating.print(variable) %> | Prints the variable content|
+	<%= data.variable %> - Prints the variable content
+	<% data.templating.print(variable) %> - Prints the variable content
 
 When using syncronous functions you can output the result directly.
 
@@ -62,3 +61,7 @@ Use
 
 That's all!
 
+##Changelog
+1.0.0 Initial version
+
+1.0.1 Fixed typo in test script name

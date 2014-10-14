@@ -1,7 +1,7 @@
 {
 	"name": "templating",
 	"description": "Asynchronous templating engine for node js",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"author": "Remigius Kijok",
 	"homepage": "https://github.com/Remigius1974/templating.js",
 	"bugs": "https://github.com/Remigius1974/templating.js/issues",
